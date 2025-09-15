@@ -20,7 +20,7 @@ import lightgbm as lgb
 # CONFIG (adjust in Colab)
 # =========================
 PANEL_WIDE = Path("/home/parham/myproject/panel")   # path to your parquet (folder or file)
-OUT_DIR = Path("C:\Users\seyed\PycharmProjects\pythonProject10")
+OUT_DIR = Path("/home/parham/myproject")
 
 TRAIN_FRACTION = 0.80
 HORIZONS = [1, 2, 3, 4, 5, 6, 7]
